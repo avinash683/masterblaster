@@ -1,0 +1,25 @@
+1)npm init 
+-----> we will get package.json 
+go to github
+
+2)git init
+----------------------------------------------------------------
+package.json
+{
+ "name": "my_website.in",
+ "version": "1.0.0",
+ "description": "",
+ "main": "server.js",
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "author": "",
+ "license": "ISC"
+}
+---------------------------------------------------------------
+
+------------------------------------------------------------------
+git remote add origin https://github.com/mahasagar/my_website.git
+git commit -m "first commit"
+git push -u origin master
+------------------------------------------------------------------
